@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-color: #DCDCDC;
+  margin: 0px;
+}
+
+h1 {
+  color: #A52A2A;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Antic Slab', serif;
+}
+
+#nav-bar {
+  display: flex;
+  height: 73px;
+  background-color: #000000;
+  justify-content: flex-end;
+}
+
+#logo {
+  margin: 0px 395px;
+}
+
+a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 24px;
+  margin: 0px 10px;
+  justify-content: flex-end;
+}
+
+a:hover {
+  background-color: #778899;
+}
+
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h3, p {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+.pizza-chef {
+  float: left;
+  width: 50%;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+.par-pizza {
+  margin: 0px 80px 80px;
+}
+
+#About {
+  margin-top: 40px;
+}
+
+#Contact {
+  padding: 20px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
